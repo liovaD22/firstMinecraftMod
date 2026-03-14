@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "lev-mod-1",
+    "version": "${version}",
+    "name": "LevMod1",
+    "description": "My first Minecraft mod!",
+    "authors": ["Lev"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/lev-mod-1/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.lev.mod.LevMod1"
+        ],
+        "client": [
+            "com.lev.mod.LevMod1Client"
+        ]
+    },
+    "mixins": [
+        "lev-mod-1.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "fabric-api": "*"
+    }
+}
