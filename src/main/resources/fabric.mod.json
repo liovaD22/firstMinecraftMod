@@ -14,7 +14,7 @@
             "com.lev.mod.LevMod1"
         ],
         "client": [
-            "com.lev.mod.LevMod1Client"
+            "com.lev.mod.client.LevMod1Client"
         ]
     },
     "mixins": [
