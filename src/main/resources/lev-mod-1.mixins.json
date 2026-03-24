@@ -3,7 +3,9 @@
     "package": "com.lev.mod.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [],
-    "client": [],
+    "client": [
+        "client.RedSunMixin"
+    ],
     "injectors": {
         "defaultRequire": 1
     }
